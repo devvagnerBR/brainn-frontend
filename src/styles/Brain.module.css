@@ -1,0 +1,258 @@
+.brainn_container {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 600px 100;
+	background: #efefef;
+	color: white;
+}
+
+.all {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto;
+	height: 100vh;
+	background-position-y: center;
+	display: grid;
+	grid-template-rows: 20vh 1fr 20vh;
+}
+
+.part1 {
+	width: 390px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding-left: 80px;
+}
+
+.part1 select {
+	cursor: pointer;
+	height: 50px;
+	width: 250px;
+	border: none;
+	border-radius: 10px;
+	padding: 0px 20px 0px 15px;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.part2 {
+	width: 390px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding-left: 80px;
+}
+
+.part2 h2 {
+	padding-left: 25px;
+}
+
+.part3 {
+	width: 390px;
+	display: flex;
+	gap: 10px;
+	padding-left: 80px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.part3 h3 {
+	letter-spacing: 2px;
+}
+.mega-sena {
+	background-image: url("../assets/mega-sena.svg");
+}
+.quina {
+	background-image: url("../assets/quina.svg");
+}
+.lotofácil {
+	background-image: url("../assets/lotofacil.svg");
+}
+
+.lotomania {
+	background-image: url("../assets/lotomania.svg");
+}
+.timemania {
+	background-image: url("../assets/timemania.svg");
+}
+
+.dia_de_sorte {
+	background-image: url("../assets/dia-de-sorte.svg");
+}
+
+.numeros {
+	width: 75%;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.numeros p {
+	color: black;
+	position: fixed;
+	bottom: 80px;
+}
+.container_bolas {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	max-width: 700px;
+	align-items: center;
+}
+
+.bolas {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.bolas h3 {
+	background: white;
+	color: black;
+	width: 80px;
+	height: 80px;
+	font-size: 1.75rem;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+/* .animeLeft {
+	opacity: 0;
+	transform: translateX(-20px);
+	animation: animeLeft 0.9s forwards;
+}
+
+@keyframes animeLeft {
+	to {
+		opacity: 1;
+		transform: initial;
+	}
+} */
+
+/* @media (max-width: 1950px) {
+	.brainn_container {
+		background: tomato;
+		grid-template-columns: 35vw 80vw;
+	}
+	.all {
+		width: 30vw;
+	}
+} */
+
+/* @media (max-width: 1700px) {
+	.brainn_container {
+		background: red;
+		grid-template-columns: 55vw 60vw;
+	}
+	.all {
+		width: 55vw;
+	}
+}
+
+
+*/
+
+@media (max-width: 530px) {
+	.brainn_container {
+		width: 100%;
+		height: 100vh;
+		display: grid;
+	}
+
+	.all {
+		height: 50%;
+		width: 100vw;
+		z-index: 0;
+		background-position: center;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		top: 0;
+	}
+
+	.part1 {
+		width: 100%;
+		justify-content: center;
+		padding-left: 0;
+	}
+	.part2 {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.part2 h2 {
+		padding-left: 0;
+	}
+	.part3 {
+		width: 100%;
+		justify-content: center;
+		padding-left: 0;
+		align-items: center;
+		flex-direction: row;
+		font-size: 0.81rem;
+	}
+
+	.numeros {
+		width: 100%;
+		height: 50%;
+		position: fixed;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		bottom: 0;
+		left: 0;
+	}
+
+	.numeros p {
+		max-width: 70%;
+		font-size: 0.8rem;
+		color: black;
+		text-align: center;
+		position: fixed;
+		bottom: 20px;
+	}
+	.container_bolas {
+		width: auto;
+		max-width: 70%;
+		min-width: 70%;
+		height: 100%;
+		border-radius: 50%;
+		width: 300%;
+	}
+
+	.bolas {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.bolas h3 {
+		width: 50px;
+		display: flex;
+		font-weight: 500;
+		font-size: 1.05rem;
+		height: 50px;
+	}
+}
