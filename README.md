@@ -7,10 +7,11 @@
 
 <br> </br>
 
-Projeto desenvolvido individualmente com base no desafio da Brainn, com o objetivo de desenvolver uma aplicação web front-end que mostre resultados de jogos de loterias.
+O Brainn é um software desenvolvido em React utilizando a biblioteca Axios, criado com o objetivo de simular jogos de loteria. Esta aplicação permite aos usuários visualizar os resultados dos jogos de loteria, proporcionando uma experiência virtual de participação e acompanhamento dos números sorteados.
 
 [ Clique para ver o projeto ](https://brainn.devvagner.com/)
 
+ [Link não está mais funcionando pois a API estáva hospedada no HEROKU e saiu do ar]
 ## 🔗 Link do desafio
 
  - [Desafio](https://github.com/brainnco-exs/readme-frontend)
